@@ -1540,6 +1540,14 @@ body::before {
     margin: 18px 0 26px
 }
 
+.hero-tagline {
+    color: var(--accent);
+    font-size: clamp(1.25rem, 2vw, 1.65rem);
+    font-weight: 600;
+    letter-spacing: -.025em;
+    margin: -10px 0 14px
+}
+
 .hero-l .lead {
     max-width: 52ch;
     font-size: clamp(1.05rem, 1.5vw, 1.2rem);
